@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Milk.Properties
+namespace WindowsFormsApplication7.Properties
 {
 
 
