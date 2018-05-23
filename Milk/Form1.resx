@@ -660,6 +660,9 @@
   <data name="BtnRun.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="BtnRun.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Corbel, 10.5pt, style=Bold</value>
+  </data>
   <data name="BtnRun.Location" type="System.Drawing.Point, System.Drawing">
     <value>209, 168</value>
   </data>
@@ -687,6 +690,9 @@
   <data name="BtnClear.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="BtnClear.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Corbel, 10.5pt, style=Bold</value>
+  </data>
   <data name="BtnClear.Location" type="System.Drawing.Point, System.Drawing">
     <value>295, 168</value>
   </data>
@@ -713,6 +719,9 @@
   </data>
   <data name="BtnExit.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="BtnExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Corbel, 10.5pt, style=Bold</value>
   </data>
   <data name="BtnExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1884,9 +1893,6 @@
         AAAAAAAA/////////////wAAAAAAAP/////////////+AAAAAAD///////////////wAAAAA////////
         ////////+AAAAP/////////////////wAAA=
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Milk</value>
