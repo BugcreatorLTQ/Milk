@@ -751,7 +751,7 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>416, 332</value>
+    <value>411, 342</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1884,6 +1884,9 @@
         AAAAAAAA/////////////wAAAAAAAP/////////////+AAAAAAD///////////////wAAAAA////////
         ////////+AAAAP/////////////////wAAA=
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Milk</value>
