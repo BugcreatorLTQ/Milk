@@ -204,6 +204,7 @@
             this.Controls.Add(this.LabInput2);
             this.Controls.Add(this.TxtInput1);
             this.Controls.Add(this.LabInput1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.HelpButton = true;
             this.MaximizeBox = false;
