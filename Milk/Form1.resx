@@ -505,7 +505,7 @@
     <value>NoControl</value>
   </data>
   <data name="LabOutput1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 52</value>
+    <value>205, 47</value>
   </data>
   <data name="LabOutput1.Size" type="System.Drawing.Size, System.Drawing">
     <value>79, 19</value>
@@ -538,7 +538,7 @@
     <value>NoControl</value>
   </data>
   <data name="LabOutput2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 92</value>
+    <value>205, 87</value>
   </data>
   <data name="LabOutput2.Size" type="System.Drawing.Size, System.Drawing">
     <value>79, 19</value>
@@ -571,7 +571,7 @@
     <value>NoControl</value>
   </data>
   <data name="LabOutput3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 130</value>
+    <value>205, 125</value>
   </data>
   <data name="LabOutput3.Size" type="System.Drawing.Size, System.Drawing">
     <value>79, 19</value>
@@ -595,7 +595,7 @@
     <value>6</value>
   </data>
   <data name="TxtOutput1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>295, 52</value>
+    <value>295, 47</value>
   </data>
   <data name="TxtOutput1.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -616,7 +616,7 @@
     <value>5</value>
   </data>
   <data name="TxtOutput2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>295, 93</value>
+    <value>295, 87</value>
   </data>
   <data name="TxtOutput2.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -637,7 +637,7 @@
     <value>4</value>
   </data>
   <data name="TxtOutput3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>295, 131</value>
+    <value>295, 125</value>
   </data>
   <data name="TxtOutput3.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
