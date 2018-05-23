@@ -126,7 +126,7 @@
     <value>宋体, 14.25pt</value>
   </data>
   <data name="LabInput1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 49</value>
+    <value>4, 44</value>
   </data>
   <data name="LabInput1.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 19</value>
@@ -150,7 +150,7 @@
     <value>22</value>
   </data>
   <data name="TxtInput1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 52</value>
+    <value>79, 47</value>
   </data>
   <data name="TxtInput1.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -181,7 +181,7 @@
     <value>NoControl</value>
   </data>
   <data name="LabInput2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 90</value>
+    <value>4, 87</value>
   </data>
   <data name="LabInput2.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 19</value>
@@ -214,7 +214,7 @@
     <value>NoControl</value>
   </data>
   <data name="LabInput3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 128</value>
+    <value>4, 125</value>
   </data>
   <data name="LabInput3.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 19</value>
@@ -280,7 +280,7 @@
     <value>NoControl</value>
   </data>
   <data name="LabInput5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 202</value>
+    <value>4, 207</value>
   </data>
   <data name="LabInput5.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 19</value>
@@ -313,7 +313,7 @@
     <value>NoControl</value>
   </data>
   <data name="LabInput6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 239</value>
+    <value>4, 244</value>
   </data>
   <data name="LabInput6.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 19</value>
@@ -346,7 +346,7 @@
     <value>NoControl</value>
   </data>
   <data name="LabInput7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 277</value>
+    <value>4, 284</value>
   </data>
   <data name="LabInput7.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 19</value>
@@ -370,7 +370,7 @@
     <value>15</value>
   </data>
   <data name="TxtInput2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 90</value>
+    <value>79, 87</value>
   </data>
   <data name="TxtInput2.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -391,7 +391,7 @@
     <value>14</value>
   </data>
   <data name="TxtInput3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 128</value>
+    <value>79, 125</value>
   </data>
   <data name="TxtInput3.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -433,7 +433,7 @@
     <value>12</value>
   </data>
   <data name="TxtInput5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 205</value>
+    <value>79, 207</value>
   </data>
   <data name="TxtInput5.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -454,7 +454,7 @@
     <value>11</value>
   </data>
   <data name="TxtInput6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 242</value>
+    <value>79, 244</value>
   </data>
   <data name="TxtInput6.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -475,7 +475,7 @@
     <value>10</value>
   </data>
   <data name="TxtInput7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 277</value>
+    <value>79, 282</value>
   </data>
   <data name="TxtInput7.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
