@@ -363,7 +363,7 @@
     <value>2</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 117</value>
+    <value>44, 234</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -384,7 +384,7 @@
     <value>1</value>
   </data>
   <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 209</value>
+    <value>220, 234</value>
   </data>
   <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
