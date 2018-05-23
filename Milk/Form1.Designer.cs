@@ -1,6 +1,6 @@
 ﻿namespace Milk
 {
-    partial class Form1
+    partial class Milk
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -28,104 +28,186 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button10 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Milk));
+            this.LabInput1 = new System.Windows.Forms.Label();
+            this.TxtInput1 = new System.Windows.Forms.TextBox();
+            this.LabInput2 = new System.Windows.Forms.Label();
+            this.LabInput3 = new System.Windows.Forms.Label();
+            this.LabInput4 = new System.Windows.Forms.Label();
+            this.LabInput5 = new System.Windows.Forms.Label();
+            this.LabInput6 = new System.Windows.Forms.Label();
+            this.LabInput7 = new System.Windows.Forms.Label();
+            this.TxtInput2 = new System.Windows.Forms.TextBox();
+            this.TxtInput3 = new System.Windows.Forms.TextBox();
+            this.TxtInput4 = new System.Windows.Forms.TextBox();
+            this.TxtInput5 = new System.Windows.Forms.TextBox();
+            this.TxtInput6 = new System.Windows.Forms.TextBox();
+            this.TxtInput7 = new System.Windows.Forms.TextBox();
+            this.LabOutput1 = new System.Windows.Forms.Label();
+            this.LabOutput2 = new System.Windows.Forms.Label();
+            this.LabOutput3 = new System.Windows.Forms.Label();
+            this.TxtOutput1 = new System.Windows.Forms.TextBox();
+            this.TxtOutput2 = new System.Windows.Forms.TextBox();
+            this.TxtOutput3 = new System.Windows.Forms.TextBox();
+            this.BtnRun = new System.Windows.Forms.Button();
+            this.BtnClear = new System.Windows.Forms.Button();
+            this.BtnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // LabInput1
             // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.LabInput1, "LabInput1");
+            this.LabInput1.Name = "LabInput1";
             // 
-            // button2
+            // TxtInput1
             // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.TxtInput1, "TxtInput1");
+            this.TxtInput1.Name = "TxtInput1";
             // 
-            // button3
+            // LabInput2
             // 
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.Name = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.LabInput2, "LabInput2");
+            this.LabInput2.Name = "LabInput2";
             // 
-            // button5
+            // LabInput3
             // 
-            resources.ApplyResources(this.button5, "button5");
-            this.button5.Name = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.LabInput3, "LabInput3");
+            this.LabInput3.Name = "LabInput3";
             // 
-            // button6
+            // LabInput4
             // 
-            resources.ApplyResources(this.button6, "button6");
-            this.button6.Name = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.LabInput4, "LabInput4");
+            this.LabInput4.Name = "LabInput4";
             // 
-            // button8
+            // LabInput5
             // 
-            resources.ApplyResources(this.button8, "button8");
-            this.button8.Name = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.LabInput5, "LabInput5");
+            this.LabInput5.Name = "LabInput5";
             // 
-            // button9
+            // LabInput6
             // 
-            resources.ApplyResources(this.button9, "button9");
-            this.button9.Name = "button9";
-            this.button9.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.LabInput6, "LabInput6");
+            this.LabInput6.Name = "LabInput6";
             // 
-            // button4
+            // LabInput7
             // 
-            resources.ApplyResources(this.button4, "button4");
-            this.button4.Name = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.LabInput7, "LabInput7");
+            this.LabInput7.Name = "LabInput7";
             // 
-            // button7
+            // TxtInput2
             // 
-            resources.ApplyResources(this.button7, "button7");
-            this.button7.Name = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.TxtInput2, "TxtInput2");
+            this.TxtInput2.Name = "TxtInput2";
             // 
-            // textBox1
+            // TxtInput3
             // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
+            resources.ApplyResources(this.TxtInput3, "TxtInput3");
+            this.TxtInput3.Name = "TxtInput3";
             // 
-            // button10
+            // TxtInput4
             // 
-            resources.ApplyResources(this.button10, "button10");
-            this.button10.Name = "button10";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            resources.ApplyResources(this.TxtInput4, "TxtInput4");
+            this.TxtInput4.Name = "TxtInput4";
             // 
-            // Form1
+            // TxtInput5
+            // 
+            resources.ApplyResources(this.TxtInput5, "TxtInput5");
+            this.TxtInput5.Name = "TxtInput5";
+            // 
+            // TxtInput6
+            // 
+            resources.ApplyResources(this.TxtInput6, "TxtInput6");
+            this.TxtInput6.Name = "TxtInput6";
+            // 
+            // TxtInput7
+            // 
+            resources.ApplyResources(this.TxtInput7, "TxtInput7");
+            this.TxtInput7.Name = "TxtInput7";
+            // 
+            // LabOutput1
+            // 
+            resources.ApplyResources(this.LabOutput1, "LabOutput1");
+            this.LabOutput1.Name = "LabOutput1";
+            // 
+            // LabOutput2
+            // 
+            resources.ApplyResources(this.LabOutput2, "LabOutput2");
+            this.LabOutput2.Name = "LabOutput2";
+            // 
+            // LabOutput3
+            // 
+            resources.ApplyResources(this.LabOutput3, "LabOutput3");
+            this.LabOutput3.Name = "LabOutput3";
+            // 
+            // TxtOutput1
+            // 
+            resources.ApplyResources(this.TxtOutput1, "TxtOutput1");
+            this.TxtOutput1.Name = "TxtOutput1";
+            // 
+            // TxtOutput2
+            // 
+            resources.ApplyResources(this.TxtOutput2, "TxtOutput2");
+            this.TxtOutput2.Name = "TxtOutput2";
+            // 
+            // TxtOutput3
+            // 
+            resources.ApplyResources(this.TxtOutput3, "TxtOutput3");
+            this.TxtOutput3.Name = "TxtOutput3";
+            // 
+            // BtnRun
+            // 
+            this.BtnRun.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            resources.ApplyResources(this.BtnRun, "BtnRun");
+            this.BtnRun.Name = "BtnRun";
+            this.BtnRun.UseVisualStyleBackColor = false;
+            this.BtnRun.Click += new System.EventHandler(this.Run_Click);
+            // 
+            // BtnClear
+            // 
+            resources.ApplyResources(this.BtnClear, "BtnClear");
+            this.BtnClear.Name = "BtnClear";
+            this.BtnClear.UseVisualStyleBackColor = true;
+            this.BtnClear.Click += new System.EventHandler(this.Clear_Click);
+            // 
+            // BtnExit
+            // 
+            resources.ApplyResources(this.BtnExit, "BtnExit");
+            this.BtnExit.Name = "BtnExit";
+            this.BtnExit.UseVisualStyleBackColor = true;
+            this.BtnExit.Click += new System.EventHandler(this.Exit_Click);
+            // 
+            // Milk
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Controls.Add(this.BtnExit);
+            this.Controls.Add(this.BtnClear);
+            this.Controls.Add(this.BtnRun);
+            this.Controls.Add(this.TxtOutput3);
+            this.Controls.Add(this.TxtOutput2);
+            this.Controls.Add(this.TxtOutput1);
+            this.Controls.Add(this.LabOutput3);
+            this.Controls.Add(this.LabOutput2);
+            this.Controls.Add(this.LabOutput1);
+            this.Controls.Add(this.TxtInput7);
+            this.Controls.Add(this.TxtInput6);
+            this.Controls.Add(this.TxtInput5);
+            this.Controls.Add(this.TxtInput4);
+            this.Controls.Add(this.TxtInput3);
+            this.Controls.Add(this.TxtInput2);
+            this.Controls.Add(this.LabInput7);
+            this.Controls.Add(this.LabInput6);
+            this.Controls.Add(this.LabInput5);
+            this.Controls.Add(this.LabInput4);
+            this.Controls.Add(this.LabInput3);
+            this.Controls.Add(this.LabInput2);
+            this.Controls.Add(this.TxtInput1);
+            this.Controls.Add(this.LabInput1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.HelpButton = true;
             this.MaximizeBox = false;
-            this.Name = "Form1";
-            this.ShowIcon = false;
+            this.Name = "Milk";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -133,17 +215,29 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Label LabInput1;
+        private System.Windows.Forms.TextBox TxtInput1;
+        private System.Windows.Forms.Label LabInput2;
+        private System.Windows.Forms.Label LabInput3;
+        private System.Windows.Forms.Label LabInput4;
+        private System.Windows.Forms.Label LabInput5;
+        private System.Windows.Forms.Label LabInput6;
+        private System.Windows.Forms.Label LabInput7;
+        private System.Windows.Forms.TextBox TxtInput2;
+        private System.Windows.Forms.TextBox TxtInput3;
+        private System.Windows.Forms.TextBox TxtInput4;
+        private System.Windows.Forms.TextBox TxtInput5;
+        private System.Windows.Forms.TextBox TxtInput6;
+        private System.Windows.Forms.TextBox TxtInput7;
+        private System.Windows.Forms.Label LabOutput1;
+        private System.Windows.Forms.Label LabOutput2;
+        private System.Windows.Forms.Label LabOutput3;
+        private System.Windows.Forms.TextBox TxtOutput1;
+        private System.Windows.Forms.TextBox TxtOutput2;
+        private System.Windows.Forms.TextBox TxtOutput3;
+        private System.Windows.Forms.Button BtnRun;
+        private System.Windows.Forms.Button BtnClear;
+        private System.Windows.Forms.Button BtnExit;
     }
 }
 

@@ -9,25 +9,35 @@ using System.Windows.Forms;
 
 namespace Milk
 {
-    public partial class Form1 : Form
+    public partial class Milk : Form
     {
-        public Form1()
+        public Milk()
         {
             InitializeComponent();
         }
 
-        private void button10_Click(object sender, EventArgs e)
+        private void Exit_Click(object sender, EventArgs e)
         {
-            int year = int.Parse(this.textBox1.Text);
-            if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
-            {
-                // Console.WriteLine(year + "是闰年");
-                MessageBox.Show(year + "是闰年");
-            }
-            else
-            {
-                MessageBox.Show(year + "不是闰年");
-            }
+            Application.Exit();
+        }
+
+        private void Clear_Click(object sender, EventArgs e)
+        {
+            this.TxtInput1.Text = "";
+            this.TxtInput2.Text = "";
+            this.TxtInput3.Text = "";
+            this.TxtInput4.Text = "";
+            this.TxtInput5.Text = "";
+            this.TxtInput6.Text = "";
+            this.TxtInput7.Text = "";
+            this.TxtOutput1.Text = "";
+            this.TxtOutput2.Text = "";
+            this.TxtOutput3.Text = "";
+        }
+
+        private void Run_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
