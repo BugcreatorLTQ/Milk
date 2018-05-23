@@ -46,6 +46,14 @@ namespace Milk
                 x[4] = TxtInput5.Text;
                 x[5] = TxtInput6.Text;
                 x[6] = TxtInput7.Text;
+                foreach(string temp in x)
+                {
+                    if (temp == "")
+                    {
+                        MessageBox.Show("请输入数值");
+                        return;
+                    }
+                }
                 double[] p = new double[7];
                 for (int i = 0; i < 7; i++)
                 {
@@ -60,10 +68,15 @@ namespace Milk
                             sign = false;
                             continue;
                         }
-                        if (x[i][j] == '.')
+                        else if (x[i][j] == '.')
                         {
                             dian = false;
                             continue;
+                        }
+                        else if (x[i][j] < '0' || x[i][j] > '9')
+                        {
+                            MessageBox.Show("请输入正确的数值");
+                            return;
                         }
                         if (dian)
                             p1 = p1 * 10 + (x[i][j] - 48);
