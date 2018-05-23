@@ -129,13 +129,13 @@
     <value>4, 44</value>
   </data>
   <data name="LabInput1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 19</value>
+    <value>85, 19</value>
   </data>
   <data name="LabInput1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="LabInput1.Text" xml:space="preserve">
-    <value>Input1</value>
+    <value>奶牛胎次</value>
   </data>
   <data name="&gt;&gt;LabInput1.Name" xml:space="preserve">
     <value>LabInput1</value>
@@ -150,7 +150,7 @@
     <value>22</value>
   </data>
   <data name="TxtInput1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 47</value>
+    <value>152, 42</value>
   </data>
   <data name="TxtInput1.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -184,13 +184,13 @@
     <value>4, 87</value>
   </data>
   <data name="LabInput2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 19</value>
+    <value>142, 19</value>
   </data>
   <data name="LabInput2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="LabInput2.Text" xml:space="preserve">
-    <value>Input2</value>
+    <value>第一次测奶时间</value>
   </data>
   <data name="&gt;&gt;LabInput2.Name" xml:space="preserve">
     <value>LabInput2</value>
@@ -217,13 +217,13 @@
     <value>4, 125</value>
   </data>
   <data name="LabInput3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 19</value>
+    <value>123, 19</value>
   </data>
   <data name="LabInput3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="LabInput3.Text" xml:space="preserve">
-    <value>Input3</value>
+    <value>第一次测奶量</value>
   </data>
   <data name="&gt;&gt;LabInput3.Name" xml:space="preserve">
     <value>LabInput3</value>
@@ -250,13 +250,13 @@
     <value>4, 165</value>
   </data>
   <data name="LabInput4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 19</value>
+    <value>142, 19</value>
   </data>
   <data name="LabInput4.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="LabInput4.Text" xml:space="preserve">
-    <value>Input4</value>
+    <value>第二次测奶时间</value>
   </data>
   <data name="&gt;&gt;LabInput4.Name" xml:space="preserve">
     <value>LabInput4</value>
@@ -283,13 +283,13 @@
     <value>4, 207</value>
   </data>
   <data name="LabInput5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 19</value>
+    <value>123, 19</value>
   </data>
   <data name="LabInput5.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="LabInput5.Text" xml:space="preserve">
-    <value>Input5</value>
+    <value>第二次测奶量</value>
   </data>
   <data name="&gt;&gt;LabInput5.Name" xml:space="preserve">
     <value>LabInput5</value>
@@ -316,13 +316,13 @@
     <value>4, 244</value>
   </data>
   <data name="LabInput6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 19</value>
+    <value>142, 19</value>
   </data>
   <data name="LabInput6.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="LabInput6.Text" xml:space="preserve">
-    <value>Input6</value>
+    <value>第三次测奶时间</value>
   </data>
   <data name="&gt;&gt;LabInput6.Name" xml:space="preserve">
     <value>LabInput6</value>
@@ -349,13 +349,13 @@
     <value>4, 284</value>
   </data>
   <data name="LabInput7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 19</value>
+    <value>123, 19</value>
   </data>
   <data name="LabInput7.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="LabInput7.Text" xml:space="preserve">
-    <value>Input7</value>
+    <value>第三次测奶量</value>
   </data>
   <data name="&gt;&gt;LabInput7.Name" xml:space="preserve">
     <value>LabInput7</value>
@@ -370,7 +370,7 @@
     <value>15</value>
   </data>
   <data name="TxtInput2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 87</value>
+    <value>152, 85</value>
   </data>
   <data name="TxtInput2.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -391,7 +391,7 @@
     <value>14</value>
   </data>
   <data name="TxtInput3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 125</value>
+    <value>152, 125</value>
   </data>
   <data name="TxtInput3.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -412,7 +412,7 @@
     <value>13</value>
   </data>
   <data name="TxtInput4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 168</value>
+    <value>152, 163</value>
   </data>
   <data name="TxtInput4.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -433,7 +433,7 @@
     <value>12</value>
   </data>
   <data name="TxtInput5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 207</value>
+    <value>152, 205</value>
   </data>
   <data name="TxtInput5.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -454,7 +454,7 @@
     <value>11</value>
   </data>
   <data name="TxtInput6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 244</value>
+    <value>152, 244</value>
   </data>
   <data name="TxtInput6.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -475,7 +475,7 @@
     <value>10</value>
   </data>
   <data name="TxtInput7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>79, 282</value>
+    <value>152, 282</value>
   </data>
   <data name="TxtInput7.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -505,16 +505,16 @@
     <value>NoControl</value>
   </data>
   <data name="LabOutput1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 47</value>
+    <value>291, 44</value>
   </data>
   <data name="LabOutput1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 19</value>
+    <value>85, 19</value>
   </data>
   <data name="LabOutput1.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
   <data name="LabOutput1.Text" xml:space="preserve">
-    <value>Output1</value>
+    <value>测奶总量</value>
   </data>
   <data name="&gt;&gt;LabOutput1.Name" xml:space="preserve">
     <value>LabOutput1</value>
@@ -538,16 +538,16 @@
     <value>NoControl</value>
   </data>
   <data name="LabOutput2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 87</value>
+    <value>291, 87</value>
   </data>
   <data name="LabOutput2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 19</value>
+    <value>85, 19</value>
   </data>
   <data name="LabOutput2.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
   <data name="LabOutput2.Text" xml:space="preserve">
-    <value>Output2</value>
+    <value>产奶峰值</value>
   </data>
   <data name="&gt;&gt;LabOutput2.Name" xml:space="preserve">
     <value>LabOutput2</value>
@@ -571,16 +571,16 @@
     <value>NoControl</value>
   </data>
   <data name="LabOutput3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 125</value>
+    <value>291, 130</value>
   </data>
   <data name="LabOutput3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 19</value>
+    <value>123, 19</value>
   </data>
   <data name="LabOutput3.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
   <data name="LabOutput3.Text" xml:space="preserve">
-    <value>Output3</value>
+    <value>产奶峰值时间</value>
   </data>
   <data name="&gt;&gt;LabOutput3.Name" xml:space="preserve">
     <value>LabOutput3</value>
@@ -595,7 +595,7 @@
     <value>6</value>
   </data>
   <data name="TxtOutput1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>295, 47</value>
+    <value>413, 42</value>
   </data>
   <data name="TxtOutput1.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -616,7 +616,7 @@
     <value>5</value>
   </data>
   <data name="TxtOutput2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>295, 87</value>
+    <value>413, 85</value>
   </data>
   <data name="TxtOutput2.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -637,7 +637,7 @@
     <value>4</value>
   </data>
   <data name="TxtOutput3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>295, 125</value>
+    <value>413, 128</value>
   </data>
   <data name="TxtOutput3.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 21</value>
@@ -661,19 +661,19 @@
     <value>Flat</value>
   </data>
   <data name="BtnRun.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Corbel, 10.5pt, style=Bold</value>
+    <value>楷体, 26.25pt, style=Bold</value>
   </data>
   <data name="BtnRun.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 168</value>
+    <value>295, 168</value>
   </data>
   <data name="BtnRun.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 135</value>
+    <value>105, 135</value>
   </data>
   <data name="BtnRun.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
   <data name="BtnRun.Text" xml:space="preserve">
-    <value>Run</value>
+    <value>预测</value>
   </data>
   <data name="&gt;&gt;BtnRun.Name" xml:space="preserve">
     <value>BtnRun</value>
@@ -691,19 +691,19 @@
     <value>Flat</value>
   </data>
   <data name="BtnClear.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Corbel, 10.5pt, style=Bold</value>
+    <value>楷体, 26.25pt, style=Bold</value>
   </data>
   <data name="BtnClear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>295, 168</value>
+    <value>398, 168</value>
   </data>
   <data name="BtnClear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 60</value>
+    <value>115, 71</value>
   </data>
   <data name="BtnClear.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
   <data name="BtnClear.Text" xml:space="preserve">
-    <value>Clear</value>
+    <value>清除</value>
   </data>
   <data name="&gt;&gt;BtnClear.Name" xml:space="preserve">
     <value>BtnClear</value>
@@ -721,22 +721,22 @@
     <value>Flat</value>
   </data>
   <data name="BtnExit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Corbel, 10.5pt, style=Bold</value>
+    <value>楷体, 26.25pt, style=Bold</value>
   </data>
   <data name="BtnExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="BtnExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>295, 244</value>
+    <value>398, 233</value>
   </data>
   <data name="BtnExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 58</value>
+    <value>115, 70</value>
   </data>
   <data name="BtnExit.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
   </data>
   <data name="BtnExit.Text" xml:space="preserve">
-    <value>Exit</value>
+    <value>退出</value>
   </data>
   <data name="&gt;&gt;BtnExit.Name" xml:space="preserve">
     <value>BtnExit</value>
@@ -760,7 +760,7 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>411, 342</value>
+    <value>535, 333</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
