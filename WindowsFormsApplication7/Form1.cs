@@ -16,34 +16,26 @@ namespace WindowsFormsApplication7
             InitializeComponent();
         }
 
-        private void toolboxControl1_Click(object sender, EventArgs e)
-        {
+   
 
-        }
-
-        private void textEdit4_EditValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void simpleButton1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             string[] x = new string[7];
-            x[0] = textX1.Text;
-            x[1] = textX2.Text;
-            x[2] = textX3.Text;
-            x[3] = textX4.Text;
-            x[4] = textX5.Text;
-            x[5] = textX6.Text;
+            x[0] = textX2.Text;
+            x[1] = textX4.Text;
+            x[2] = textX6.Text;
+            x[3] = textX1.Text;
+            x[4] = textX3.Text;
+            x[5] = textX5.Text;
             x[6] = textX7.Text;
             double[] p = new double[7];
-            for(int i = 0; i < 7; i++)
+            for (int i = 0; i < 7; i++)
             {
                 bool sign = true;
                 bool dian = true;
                 double p1 = 0;
                 double p2 = 0;
-                for (int j = 0; j < x[i].Length; i++)
+                for (int j = 0; j < x[i].Length; j++)
                 {
                     if (x[i][j] == '-')
                     {
@@ -60,7 +52,7 @@ namespace WindowsFormsApplication7
                     else
                         p2 = p2 * 10 + (x[i][j] - 48);
                 }
-                while (p2 > 0)
+                while (p2 > 1)
                 {
                     p2 /= 10.0;
                 }
@@ -70,6 +62,12 @@ namespace WindowsFormsApplication7
                     p[i] = -1 * p[i];
                 }
             }
+            double[] xxoffset = { 6, 36, 66, 1, 5.9, 6.8, 7 };
+            double[] xgain = { 0.0689655172413793, 0.0714285714285714, 0.0689655172413793, 2, 0.0530503978779841, 0.0543478260869565, 0.0543478260869565 };
+            double[] xymin = { -1 };
+            double[] yymin = { -1 };
+            double[] ygain = { 0.000240552308099396, 0.0333333333333333, 0.0584795321637427 };
+            double[] yxoffset = { 3301.5, 40, 9.6 };
             double[,] w1 = new double[,] { {0.9880,-0.2664,-0.9157,0.0206,-0.5388,-0.7711,2.4399},
                                            {3.0299,2.1328,-1.6592,-0.5420,-0.1957,1.4950,-0.2351},
                                            {-2.8242,2.6297,1.6262,-3.7558,1.1221,1.9047,2.1435},
@@ -88,25 +86,64 @@ namespace WindowsFormsApplication7
             };
             double[] b1 = { -0.3649, -2.5300, 2.9763, -0.1933, 0.1751, -0.1076, -0.9749, 3.1512, 4.2182, 0.5964 };
             double[] b2 = { 0.0237, 1.3018, -0.0672 };
-            double [] y1 = new double [10];
-            double [] y2 = new double [3];
-			for(int i = 0; i<10;i++){
-				y1[i]=0;
-				for(int j = 0; j<7;j++)
-					y1[i]+=w1[i,j]*p[j];
-				y1[i]+=b1[i];
-				y1[i]=1/(1+System.Math.Exp(-y1[i]));
-			}
-			for(int i = 0; i<3;i++){
-				y2[i]=0;
-				for(int j = 0; j<10;j++){	
-					y2[i]+=w2[i,j]* y1[j];
-				}
-                y2[i]+=b2[i];
-			}
+            double[] y1 = new double[10];
+            double[] y2 = new double[3];
+            for (int i = 0; i < 7; i++)
+            {
+                p[i] = p[i] - xxoffset[i];
+            }
+            double[] tmp = { 0, 0, 0, 0, 0, 0, 0 };
+            for (int i = 0; i < 7; i++)
+            {
+                for (int j = 0; j < 7; j++)
+                {
+                    tmp[i] += xgain[i] * p[j];
+                }
+                tmp[i] += xymin[0];
+            }
+
+
+            for (int i = 0; i < 10; i++)
+            {
+                y1[i] = 0;
+                for (int j = 0; j < 7; j++)
+                    y1[i] += w1[i, j] * p[j];
+                y1[i] += b1[i];
+                y1[i] = 2 / (1 + System.Math.Exp(-2 * y1[i])) - 1;
+            }
+            for (int i = 0; i < 3; i++)
+            {
+                y2[i] = 0;
+                for (int j = 0; j < 10; j++)
+                {
+                    y2[i] += w2[i, j] * y1[j];
+                }
+                y2[i] += b2[i];
+            }
+            for (int i = 0; i < 3; i++)
+            {
+                y2[i] -= yymin[0];
+                y2[i] /= ygain[i];
+                y2[i] += yxoffset[i];
+            }
+
             textY1.Text = y2[0].ToString();
-            textY1.Text = y2[1].ToString();
-            textY3.Text = y2[2].ToString();
+            textY3.Text = y2[1].ToString();
+            textY2.Text = y2[2].ToString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textX1.Text = "";
+            textX2.Text = "";
+            textX3.Text = "";
+            textX4.Text = "";
+            textX5.Text = "";
+            textX6.Text = "";
+            textX7.Text = "";
+            textY1.Text = "";
+            textY2.Text = "";
+            textY3.Text = "";
         }
     }
 }
