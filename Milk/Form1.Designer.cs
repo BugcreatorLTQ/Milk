@@ -52,6 +52,12 @@
             this.BtnRun = new System.Windows.Forms.Button();
             this.BtnClear = new System.Windows.Forms.Button();
             this.BtnExit = new System.Windows.Forms.Button();
+            this.MspMenu = new System.Windows.Forms.MenuStrip();
+            this.MspInput = new System.Windows.Forms.ToolStripMenuItem();
+            this.MspSave = new System.Windows.Forms.ToolStripMenuItem();
+            this.FbsInput = new System.Windows.Forms.FolderBrowserDialog();
+            this.SfeSave = new System.Windows.Forms.SaveFileDialog();
+            this.MspMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // LabInput1
@@ -176,6 +182,30 @@
             this.BtnExit.UseVisualStyleBackColor = true;
             this.BtnExit.Click += new System.EventHandler(this.Exit_Click);
             // 
+            // MspMenu
+            // 
+            this.MspMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MspInput,
+            this.MspSave});
+            resources.ApplyResources(this.MspMenu, "MspMenu");
+            this.MspMenu.Name = "MspMenu";
+            // 
+            // MspInput
+            // 
+            this.MspInput.Name = "MspInput";
+            resources.ApplyResources(this.MspInput, "MspInput");
+            this.MspInput.Click += new System.EventHandler(this.InputClick);
+            // 
+            // MspSave
+            // 
+            this.MspSave.Name = "MspSave";
+            resources.ApplyResources(this.MspSave, "MspSave");
+            this.MspSave.Click += new System.EventHandler(this.SaveCilck);
+            // 
+            // FbsInput
+            // 
+            resources.ApplyResources(this.FbsInput, "FbsInput");
+            // 
             // Milk
             // 
             resources.ApplyResources(this, "$this");
@@ -204,11 +234,15 @@
             this.Controls.Add(this.LabInput2);
             this.Controls.Add(this.TxtInput1);
             this.Controls.Add(this.LabInput1);
+            this.Controls.Add(this.MspMenu);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.HelpButton = true;
+            this.MainMenuStrip = this.MspMenu;
             this.MaximizeBox = false;
             this.Name = "Milk";
+            this.MspMenu.ResumeLayout(false);
+            this.MspMenu.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -239,6 +273,11 @@
         private System.Windows.Forms.Button BtnRun;
         private System.Windows.Forms.Button BtnClear;
         private System.Windows.Forms.Button BtnExit;
+        private System.Windows.Forms.MenuStrip MspMenu;
+        private System.Windows.Forms.ToolStripMenuItem MspInput;
+        private System.Windows.Forms.ToolStripMenuItem MspSave;
+        public System.Windows.Forms.FolderBrowserDialog FbsInput;
+        private System.Windows.Forms.SaveFileDialog SfeSave;
     }
 }
 

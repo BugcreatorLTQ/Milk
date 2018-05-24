@@ -163,5 +163,23 @@ namespace Milk
                 TxtOutput3.Text = y2[2].ToString();
             }
         }
+        
+        private void SaveCilck(object sender, EventArgs e)
+        {
+            if (this.SfeSave.ShowDialog() == DialogResult.Yes)
+            {
+                string FoldPath = SfeSave.ToString();
+                MessageBox.Show(FoldPath);
+            }
+        }
+
+        private void InputClick(object sender, EventArgs e)
+        {
+            if(this.FbsInput.ShowDialog() == DialogResult.Yes)
+            {
+                string FoldPath = FbsInput.SelectedPath;
+                MessageBox.Show(FoldPath);
+            }
+        }
     }
 }

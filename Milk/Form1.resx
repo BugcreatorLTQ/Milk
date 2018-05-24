@@ -750,6 +750,54 @@
   <data name="&gt;&gt;BtnExit.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="MspMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="MspInput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 21</value>
+  </data>
+  <data name="MspInput.Text" xml:space="preserve">
+    <value>导入数据</value>
+  </data>
+  <data name="MspSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 21</value>
+  </data>
+  <data name="MspSave.Text" xml:space="preserve">
+    <value>保存数据</value>
+  </data>
+  <data name="MspMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="MspMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>535, 25</value>
+  </data>
+  <data name="MspMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="MspMenu.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;MspMenu.Name" xml:space="preserve">
+    <value>MspMenu</value>
+  </data>
+  <data name="&gt;&gt;MspMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MspMenu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MspMenu.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <metadata name="FbsInput.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>137, 17</value>
+  </metadata>
+  <data name="FbsInput.SelectedPath" xml:space="preserve">
+    <value>C:\Users\Administrator\Desktop</value>
+  </data>
+  <metadata name="SfeSave.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>240, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1897,11 +1945,32 @@
         ////////+AAAAP/////////////////wAAA=
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Milk</value>
+  </data>
+  <data name="&gt;&gt;MspInput.Name" xml:space="preserve">
+    <value>MspInput</value>
+  </data>
+  <data name="&gt;&gt;MspInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MspSave.Name" xml:space="preserve">
+    <value>MspSave</value>
+  </data>
+  <data name="&gt;&gt;MspSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FbsInput.Name" xml:space="preserve">
+    <value>FbsInput</value>
+  </data>
+  <data name="&gt;&gt;FbsInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SfeSave.Name" xml:space="preserve">
+    <value>SfeSave</value>
+  </data>
+  <data name="&gt;&gt;SfeSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Milk</value>
