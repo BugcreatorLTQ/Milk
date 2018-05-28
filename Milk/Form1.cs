@@ -16,11 +16,13 @@ namespace Milk
             InitializeComponent();
         }
 
+        //单击退出按钮时退出系统
         private void Exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
+        //单击清除按钮时清空数据
         private void Clear_Click(object sender, EventArgs e)
         {
             this.TxtInput1.Text = "";
@@ -35,6 +37,7 @@ namespace Milk
             this.TxtOutput3.Text = "";
         }
 
+        //单击预测按钮时进行计算
         private void Run_Click(object sender, EventArgs e)
         {
             {
@@ -164,6 +167,7 @@ namespace Milk
             }
         }
         
+        //单击保存结果时将结果保存到指定目录下
         private void SaveCilck(object sender, EventArgs e)
         {
             if (this.SfeSave.ShowDialog() == DialogResult.Yes)
@@ -173,6 +177,7 @@ namespace Milk
             }
         }
 
+        //单击导入数据时将指定目录下的数据导入
         private void InputClick(object sender, EventArgs e)
         {
             if(this.FbsInput.ShowDialog() == DialogResult.Yes)
